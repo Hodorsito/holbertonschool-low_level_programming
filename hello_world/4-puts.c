@@ -1,3 +1,11 @@
-#!/bin/bash
 #include<stdio.h>
-int puts(char["Programming is like building a multilingual puzzle"]) 0
+
+/**
+ * main - Entry point 
+ * "Programming is like building a multilingual puzzle"
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	return (0);
+}
