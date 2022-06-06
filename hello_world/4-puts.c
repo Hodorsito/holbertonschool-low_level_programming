@@ -5,7 +5,7 @@
  * 
  * Return: Always 0 (Success)
  */
-int main("Programming is like building a multilingual puzzle")
+int main(void)
 {
 	return (0);
 }
