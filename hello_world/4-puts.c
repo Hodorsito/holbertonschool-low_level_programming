@@ -1,2 +1,2 @@
 #!/bin/bash
-/* "Programming is like building a miltilingual puzzle" */ 0
+puts("Programming is like building a multilingual puzzle") 0
