@@ -1,11 +1,22 @@
-#include<stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
- * main - Entry point
+ * main - Numbers 
  *
  * Return: Always 0 (Success)
- */
+*/
+   
+int main(void)
+{
+	int n;
 
-import n
-value = randit(1,10)
-	print(value)
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if ( n > 0 ) {
+	printf("n is positive\n" );
+}
 
+printf("value of n is  : %d\n" );
+
+	return (0);
+}
