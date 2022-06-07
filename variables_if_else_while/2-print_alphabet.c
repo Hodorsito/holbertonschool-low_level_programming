@@ -14,11 +14,14 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	char ch = 'a';
+	char start = 'a';
+	char end = 'z';
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-
+	while (ch != end)
+	{
 	putchar(ch);
+	ch++;
+	}    
 
 	return (0);
 }
