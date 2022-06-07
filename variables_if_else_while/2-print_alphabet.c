@@ -9,19 +9,12 @@
 
 int main(void)
 {
-	int n;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+	char ch
 
-	char start = 'a';
-	char end = 'z';
-
-	while (ch != end)
-	{
-	putchar(ch);
-	ch++;
-	}    
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
+		putchar(\n);
 
 	return (0);
 }
