@@ -12,7 +12,7 @@ int main(void)
 	{
 		putchar(g);
 		if (g != 57)
-		{	
+		{
 			putchar(44);
 			putchar(32);
 		}
