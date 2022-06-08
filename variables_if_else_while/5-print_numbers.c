@@ -10,8 +10,11 @@ int main(void)
 
 	for (r = 0; r < 10; r++)
 	{
-		printf("%d\n", r);
+		printf("%d", r);
 	}
+
+
+	putchar('\n');
 
 	return (0);
 }
