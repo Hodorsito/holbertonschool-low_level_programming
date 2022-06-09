@@ -1,16 +1,17 @@
 #include "main.h"
 #include <ctype.h>
 #include <stdio.h>
+
 /**
  * _islower - Entry point
  */
 int _islower(void)
 {
-	int c = 'c';
+	char c;
 
-	if (_islower(c))
+	if (c (is lowercase))
 	{
-		printf("c = |%c| _islower\n", c);
+		printf("%c _islower(): %d", c, _islower(c));
 		return (1);
 	}
 
